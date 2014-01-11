@@ -1,0 +1,45 @@
+﻿Build started 10/01/2014 22:22:07.
+     1>Project "C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Computations\Computations.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Computations.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Computations.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\\Libs\pnl-win32-1.6.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D COMPUTATIONS_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Computations.cpp
+         Computations.cpp
+     1>c:\users\utilisateur\documents\visual studio 2010\projects\pilotagebancaire\computations\computations.cpp(34): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned long', possible loss of data
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Computations.dll.embed.manifest.res" Debug\Computations_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Debug\Computations.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Libs\pnl-win32-1.6.0\lib" libpnl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Computations.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Debug\Computations.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Debug\Computations.lib" /MACHINE:X86 /DLL Debug\Computations.dll.embed.manifest.res
+         Debug\Computations.obj
+            Creating library C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Debug\Computations.lib and object C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Debug\Computations.exp
+       Manifest:
+         Deleting file "Debug\Computations.dll.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Computations.dll.embed.manifest" /manifest Debug\Computations.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Computations.dll.embed.manifest.res" Debug\Computations_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Debug\Computations.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Libs\pnl-win32-1.6.0\lib" libpnl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Computations.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Debug\Computations.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Debug\Computations.lib" /MACHINE:X86 /DLL Debug\Computations.dll.embed.manifest.res
+         Debug\Computations.obj
+            Creating library C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Debug\Computations.lib and object C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Debug\Computations.exp
+         Computations.vcxproj -> C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Debug\Computations.dll
+       PostBuildEvent:
+         copy "C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Debug\Computations.dll" "C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\\ConsoleApplication1\bin\Debug\Computations.dll"
+         copy "C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\*.dll" "C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\\ConsoleApplication1\bin\Debug\*.dll" 
+         copy "C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\*.lib" "C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\\ConsoleApplication1\bin\Debug\*.lib"
+         :VCEnd
+                 1 fichier(s) copié(s).
+         C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\libblas.dll
+         C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\liblapack.dll
+         C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\libpnl.dll
+                 3 fichier(s) copié(s).
+         C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\libpnl.lib
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file "Debug\Computations.unsuccessfulbuild".
+         Touching "Debug\Computations.lastbuildstate".
+     1>Done Building Project "C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\Computations\Computations.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.57

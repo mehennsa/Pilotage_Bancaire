@@ -1,0 +1,7 @@
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\ConsoleApplication1\bin\Debug\Wrapper.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\ConsoleApplication1\bin\Debug\Wrapper.pdb
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\PilotageBancaire\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
