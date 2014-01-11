@@ -14,9 +14,9 @@ namespace Wrapper {
 		this->EspT = t;
 	}
 
-	void WrapperClass::getTaux(double S0, double sigma, double rate, double LSup, double nbLitres, double valeurLoan, double T, int M){
+	void WrapperClass::getTaux(double S0, double sigma, double rate, double LSup, double LInf, double nbLitres, double valeurLoan, double T, int M){
 		double taux;
-		estimateRate(S0, sigma, rate, LSup, nbLitres, valeurLoan, T, M,taux);
+		estimateRate(S0, sigma, rate, LSup, LInf, nbLitres, valeurLoan, T, M,taux);
 		this->Rate = taux;
 	}
 
