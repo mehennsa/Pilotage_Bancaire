@@ -10,12 +10,14 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            //basé sur le http://michel.mugnier.pagesperso-orange.fr/Pourquoi_isole.htm
+
             WrapperClass wc = new WrapperClass();
-            double S0 = 0.5;
+            double S0 = 0.9;
             double rate = 0.02;
             double sigma = 0.24;
-            double valeurLoan = 10000;
-            double nbLitres = 27;
+            double valeurLoan = 14500;
+            double nbLitres = 54;
             double LSup = 500;
             int M = 10000;
             wc.getBounds(S0, sigma, rate, LSup, nbLitres, valeurLoan, M);
@@ -23,6 +25,9 @@ namespace ConsoleApplication1
             double LInf = wc.getLInf();
             Console.WriteLine("T : " + T);
             Console.WriteLine("LInf : " + LInf);
+            wc.getTaux(S0, sigma, rate, LSup, nbLitres, valeurLoan, T, M);
+            double taux = wc.getRate();
+            Console.WriteLine("Taux : " + taux);
             Console.ReadKey();
         }
     }

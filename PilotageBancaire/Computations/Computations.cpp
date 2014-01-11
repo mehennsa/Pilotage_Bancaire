@@ -14,8 +14,8 @@ double compute_maturity(double S0, double sigma, double rate, double LSup,
 		while (refund < valeurLoan) {
 			T += 1;
 			s = s*exp(drift+sigma*SQR(1/12)*pnl_rng_normal(rng));
-			if (10 * s * nbLitres <= LSup) {
-				refund += s*nbLitres*10;
+			if ( s * nbLitres <= LSup) {
+				refund += s*nbLitres;
 			} else {
 				refund += LSup;
 			}
@@ -42,22 +42,57 @@ void Computations::estimateMaturity(double S0, double sigma, double rate, double
 		 var = var / M - EspT * EspT;
 		 double ic = 2.58 * sqrt (var / M); 
 		 EspT = ic + EspT;
-		 LInf = valeurLoan/EspT;
+		 LInf = valeurLoan/(EspT*12);
 }
 
 
-//double compute_maturity(double S0, double sigma, double rate, double LSup, 
-//	double nbLitres, double valeurLoan, PnlRng *rng, double T, double LInf) {
-//		double T = 0;
+//void computeRefund(double S0, double sigma, double rate, double LSup, double nbLitres, PnlRng *rng, double T, double &refund) {
 //		double drift  = (rate-sigma*sigma/2)*(1/12);
-//		double refund = 0;
 //		double s = S0;
-//		double refund = 0;
-//		while (refund < valeurLoan) {
+//		for (double i=0; i <T*12; ++i) {
 //			T += 1;
 //			s = s*exp(drift+sigma*SQR(1/12)*pnl_rng_normal(rng));
-//			refund += s*nbLitres; 
+//			if ( s * nbLitres <= LSup) {
+//				refund += s*nbLitres;
+//			} else {
+//				refund += LSup;
+//			}
 //		}
-//
-//		return T/12 + 1;
 //}
+//
+//void estimateRefund(double S0, double sigma, double rate, double LSup, 
+//	  double nbLitres, double T, int M, double &EspRefund) {
+//	
+//		double t = 0;
+//		double sum = 0;
+//		double var = 0;
+//		PnlRng *rng = pnl_rng_create(PNL_RNG_MERSENNE);
+//		pnl_rng_sseed(rng, time(NULL));
+//		double refund;
+//		for (int i = 0; i < M; i++) {
+//			refund = 0;
+//			computeRefund(S0, sigma, rate, LSup, nbLitres, rng, T, refund);
+//			EspRefund += refund;
+//		}
+//		 EspRefund = EspRefund / M;
+//}
+
+
+void Computations::estimateRate(double S0, double sigma, double rate, double LSup, double nbLitres, double valeurLoan, double T, int M, double &taux){
+
+	double EspRefund = 1;
+	//estimateRefund(S0,sigma,rate,LSup,nbLitres,T,M,EspRefund);
+	taux = (EspRefund - valeurLoan)/valeurLoan ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
