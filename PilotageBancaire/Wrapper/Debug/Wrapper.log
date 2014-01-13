@@ -1,35 +1,33 @@
-﻿La génération a démarré 12/01/2014 19:54:37.
+﻿La génération a démarré 13/01/2014 17:14:26.
      1>Projet "C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\Wrapper\Wrapper.vcxproj" sur le nœud 2 (build cible(s)).
      1>InitializeBuildStatus:
          Création de "Debug\Wrapper.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
        GenerateTargetFrameworkMonikerAttribute:
        La cible est ignorée "GenerateTargetFrameworkMonikerAttribute", car tous les fichiers de sortie sont à jour par rapport aux fichiers d'entrée.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\/Computations /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Wrapper.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Stdafx.cpp /clr:nostdlib 
-         Stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\/Computations /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Wrapper.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp Wrapper.cpp /clr:nostdlib 
-         AssemblyInfo.cpp
+         Toutes les sorties sont à jour.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\/Computations /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Wrapper.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Wrapper.cpp /clr:nostdlib 
          Wrapper.cpp
-         Génération de code en cours...
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\/Computations /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Fuchsg\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
-         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
-       ResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Wrapper.dll" /INCREMENTAL /NOLOGO Delayimp.lib /DELAYLOAD:Computations.dll /MANIFEST /ManifestFile:"Debug\Wrapper.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Wrapper.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
-         Debug\AssemblyInfo.obj
-         Debug\Stdafx.obj
-         Debug\Wrapper.obj
-         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
-         C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.lib
-         Wrapper.vcxproj -> C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Wrapper.dll
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Wrapper.dll;#2" /manifest Debug\Wrapper.dll.intermediate.manifest
-       FinalizeBuildStatus:
-         Suppression du fichier "Debug\Wrapper.unsuccessfulbuild".
-         Mise à jour de l'horodatage "Debug\Wrapper.lastbuildstate".
-     1>Génération du projet "C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\Wrapper\Wrapper.vcxproj" terminée (build cible(s)).
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\msclr\marshal.h(238): error C4996: 'msclr::interop::error_reporting_helper<_To_Type,_From_Type>::marshal_as': This conversion is not supported by the library or the header file needed for this conversion is not included.  Please refer to the documentation on 'How to: Extend the Marshaling Library' for adding your own marshaling method.
+                 with
+                 [
+                     _To_Type=cli::array<double> ^,
+                     _From_Type=double *
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\msclr\marshal.h(218) : voir la déclaration de 'msclr::interop::error_reporting_helper<_To_Type,_From_Type>::marshal_as'
+                 with
+                 [
+                     _To_Type=cli::array<double> ^,
+                     _From_Type=double *
+                 ]
+                 Wrapper.cpp(27) : voir la référence à l'instanciation de la fonction modèle 'cli::array<Type> ^msclr::interop::marshal_as<cli::array<Type>,double*>(const _From_Type &)' en cours de compilation
+                 with
+                 [
+                     Type=double,
+                     _From_Type=double *
+                 ]
+     1>Génération du projet "C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\Wrapper\Wrapper.vcxproj" terminée (build cible(s)) -- ÉCHEC.
 
-La génération a réussi.
+ÉCHEC de la build.
 
-Temps écoulé 00:00:03.52
+Temps écoulé 00:00:01.59
