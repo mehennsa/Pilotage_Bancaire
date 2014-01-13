@@ -1,2 +1,4 @@
 pnl-win32-1.6.0
-PilotageBancaire/Computations/Computations.cpp
+*.log
+*.tlog
+*.manifest*
