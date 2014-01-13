@@ -76,6 +76,7 @@ void estimateRefund(double S0, double sigma, double rate, double LSup, double LI
 		PnlRng *rng = pnl_rng_create(PNL_RNG_MERSENNE);
 		pnl_rng_sseed(rng, time(NULL));
 		double refund;
+
 		for (int i = 0; i < M; i++) {
 			refund = 0;
 			computeRefund(S0, sigma, rate, LSup, LInf, nbLitres, rng, T, refund, refunds);
@@ -95,15 +96,4 @@ void Computations::estimateRate(double S0, double sigma, double rate, double LSu
 	estimateRefund(S0,sigma,rate,LSup, LInf, nbLitres,T,M,EspRefund,refunds);
 	taux = (EspRefund - valeurLoan)/valeurLoan ;
 }
-
-
-
-
-
-
-
-
-
-
-
 

@@ -20,6 +20,7 @@ namespace ConsoleApplication1
             double nbLitres = 163;
             double LSup = 500;
             int M = 10000;
+
             wc.getBounds(S0, sigma, rate, LSup, nbLitres, valeurLoan, M);
             double T = wc.getEspT();
             double LInf = wc.getLInf();

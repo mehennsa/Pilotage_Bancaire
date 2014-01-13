@@ -1,7 +1,7 @@
 // This is the main DLL file.
 
 #include "stdafx.h"
-
+#include <msclr\marshal.h>
 #include "Wrapper.h"
 
 using namespace Computations;

@@ -50,18 +50,18 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;COMPUTATIONS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\Libs\pnl-win32-1.6.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)Libs\pnl-win32-1.6.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>libpnl.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy "$(SolutionDir)Debug\Computations.dll" "$(SolutionDir)\ConsoleApplication1\bin\Debug\Computations.dll"
-copy "$(SolutionDir)Libs\pnl-win32-1.6.0\lib\*.dll" "$(SolutionDir)\ConsoleApplication1\bin\Debug\*.dll" 
-copy "$(SolutionDir)Libs\pnl-win32-1.6.0\lib\*.lib" "$(SolutionDir)\ConsoleApplication1\bin\Debug\*.lib"</Command>
+copy "C:\Users\Fuchsg\Documents\Visual Studio 2010\Projects\pnl-win32-1.6.0\lib\*.dll" "$(SolutionDir)\ConsoleApplication1\bin\Debug\*.dll" 
+copy "C:\Users\Fuchsg\Documents\Visual Studio 2010\Projects\pnl-win32-1.6.0\lib\*.lib" "$(SolutionDir)\ConsoleApplication1\bin\Debug\*.lib"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
