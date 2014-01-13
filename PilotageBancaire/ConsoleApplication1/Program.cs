@@ -16,8 +16,8 @@ namespace ConsoleApplication1
             double S0 = 0.9;
             double rate = 0.02;
             double sigma = 0.24;
-            double valeurLoan = 14500;
-            double nbLitres = 54;
+            double valeurLoan = 21500;
+            double nbLitres = 163;
             double LSup = 500;
             int M = 10000;
             wc.getBounds(S0, sigma, rate, LSup, nbLitres, valeurLoan, M);
@@ -25,9 +25,10 @@ namespace ConsoleApplication1
             double LInf = wc.getLInf();
             Console.WriteLine("T : " + T);
             Console.WriteLine("LInf : " + LInf);
-            //wc.getTaux(S0, sigma, rate, LSup, nbLitres, valeurLoan, T, M);
-            //double taux = wc.getRate();
-            //Console.WriteLine("Taux : " + taux);
+            double[] coeff = new double[(int)T*12];
+            wc.getTaux(S0, sigma, rate, LSup, LInf, nbLitres, valeurLoan, T, M, coeff);
+            double taux = wc.getRate();
+            Console.WriteLine("Taux : " + taux);
             Console.ReadKey();
         }
     }

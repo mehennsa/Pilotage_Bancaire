@@ -5,6 +5,7 @@
 #include "Wrapper.h"
 
 using namespace Computations;
+
 namespace Wrapper {
 	void WrapperClass::getBounds(double S0, double sigma, double rate, 
 			double LSup, double nbLitres, double valeurLoan, int M) {
@@ -14,9 +15,15 @@ namespace Wrapper {
 		this->EspT = t;
 	}
 
-	void WrapperClass::getTaux(double S0, double sigma, double rate, double LSup, double nbLitres, double valeurLoan, double T, int M){
+	void WrapperClass::getTaux(double S0, double sigma, double rate, double LSup, double LInf, double nbLitres, double valeurLoan, double T, int M, array<double> ^refund){
 		double taux;
-		estimateRate(S0, sigma, rate, LSup, nbLitres, valeurLoan, T, M,taux);
+		double* refunds = new double[(int)T*12];
+		for (int k = 0; k<(int)T*12; k++){
+			refunds[k] = 0;
+		}
+		estimateRate(S0, sigma, rate, LSup, LInf, nbLitres, valeurLoan, T, M,taux, refunds);
+	for (int i = 0; i < (int)T*12; i++)
+			refund[i] = (double)refunds[i];
 		this->Rate = taux;
 	}
 
