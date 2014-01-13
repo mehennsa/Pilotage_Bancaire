@@ -1,6 +1,8 @@
-﻿La génération a démarré 11/01/2014 17:56:04.
+﻿La génération a démarré 11/01/2014 18:24:30.
      1>Projet "C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Computations\Computations.vcxproj" sur le nœud 2 (rebuild cible(s)).
-     1>InitializeBuildStatus:
+     1>_PrepareForClean:
+         Suppression du fichier "Debug\Computations.lastbuildstate".
+       InitializeBuildStatus:
          Création de "Debug\Computations.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\\Libs\pnl-win32-1.6.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D COMPUTATIONS_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Computations.cpp
@@ -40,4 +42,4 @@
 
 La génération a réussi.
 
-Temps écoulé 00:00:05.35
+Temps écoulé 00:00:06.31

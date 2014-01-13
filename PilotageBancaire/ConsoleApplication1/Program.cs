@@ -25,9 +25,9 @@ namespace ConsoleApplication1
             double LInf = wc.getLInf();
             Console.WriteLine("T : " + T);
             Console.WriteLine("LInf : " + LInf);
-            wc.getTaux(S0, sigma, rate, LSup, nbLitres, valeurLoan, T, M);
-            double taux = wc.getRate();
-            Console.WriteLine("Taux : " + taux);
+            //wc.getTaux(S0, sigma, rate, LSup, nbLitres, valeurLoan, T, M);
+            //double taux = wc.getRate();
+            //Console.WriteLine("Taux : " + taux);
             Console.ReadKey();
         }
     }
