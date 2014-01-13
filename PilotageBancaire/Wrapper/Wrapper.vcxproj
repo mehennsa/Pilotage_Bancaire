@@ -55,9 +55,9 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>
-      </AdditionalDependencies>
+      <AdditionalDependencies>Computations.lib</AdditionalDependencies>
       <DelayLoadDLLs>Computations.dll</DelayLoadDLLs>
+      <AdditionalLibraryDirectories>C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

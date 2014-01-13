@@ -1,9 +1,9 @@
-﻿La génération a démarré 13/01/2014 21:04:00.
+﻿La génération a démarré 13/01/2014 21:44:41.
      1>Projet "C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Wrapper\Wrapper.vcxproj" sur le nœud 2 (rebuild cible(s)).
      1>_PrepareForClean:
          Suppression du fichier "Debug\Wrapper.lastbuildstate".
        InitializeBuildStatus:
-         Mise à jour de l'horodatage "Debug\Wrapper.unsuccessfulbuild".
+         Création de "Debug\Wrapper.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
        GenerateTargetFrameworkMonikerAttribute:
        La cible est ignorée "GenerateTargetFrameworkMonikerAttribute", car tous les fichiers de sortie sont à jour par rapport aux fichiers d'entrée.
        ClCompile:
@@ -18,7 +18,7 @@
        ResourceCompile:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Wrapper.dll" /INCREMENTAL /NOLOGO Delayimp.lib /DELAYLOAD:Computations.dll /MANIFEST /ManifestFile:"Debug\Wrapper.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Wrapper.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Wrapper.dll" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug Computations.lib Delayimp.lib /DELAYLOAD:Computations.dll /MANIFEST /ManifestFile:"Debug\Wrapper.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Wrapper.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
          Debug\AssemblyInfo.obj
          Debug\Stdafx.obj
          Debug\Wrapper.obj
@@ -34,4 +34,4 @@
 
 La génération a réussi.
 
-Temps écoulé 00:00:02.73
+Temps écoulé 00:00:02.46

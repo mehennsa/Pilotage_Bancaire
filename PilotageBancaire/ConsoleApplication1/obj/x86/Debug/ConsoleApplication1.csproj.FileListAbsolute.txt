@@ -1,10 +1,3 @@
-C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
-C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
-C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\bin\Debug\Wrapper.dll
-C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\bin\Debug\Wrapper.pdb
-C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
-C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
-C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
 C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
 C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
 C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\bin\Debug\Wrapper.dll
@@ -12,3 +5,10 @@ C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplica
 C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
 C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\bin\Debug\Wrapper.dll
+C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\bin\Debug\Wrapper.pdb
+C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
