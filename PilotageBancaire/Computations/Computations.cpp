@@ -86,15 +86,3 @@ void Computations::estimateRate(double S0, double sigma, double rate, double LSu
 	estimateRefund(S0,sigma,rate,LSup, LInf, nbLitres,T,M,EspRefund);
 	taux = (EspRefund - valeurLoan)/valeurLoan ;
 }
-
-
-
-
-
-
-
-
-
-
-
-

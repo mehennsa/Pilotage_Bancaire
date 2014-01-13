@@ -1,9 +1,32 @@
-﻿Build started 11/01/2014 19:00:54.
-     1>Project "C:\Users\Utilisateur\Documents\Ensimag\3A\Pilotage Bancaire\Projet\Pilotage_Bancaire\PilotageBancaire\Computations\Computations.vcxproj" on node 3 (clean target(s)).
-     1>_PrepareForClean:
-         Deleting file "Debug\Computations.lastbuildstate".
-     1>Done Building Project "C:\Users\Utilisateur\Documents\Ensimag\3A\Pilotage Bancaire\Projet\Pilotage_Bancaire\PilotageBancaire\Computations\Computations.vcxproj" (clean target(s)).
+﻿La génération a démarré 12/01/2014 19:54:34.
+     1>Projet "C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\Computations\Computations.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Mise à jour de l'horodatage "Debug\Computations.unsuccessfulbuild".
+       ClCompile:
+         Toutes les sorties sont à jour.
+       ManifestResourceCompile:
+         Toutes les sorties sont à jour.
+       Link:
+         Toutes les sorties sont à jour.
+       Manifest:
+         Toutes les sorties sont à jour.
+       PostBuildEvent:
+         copy "C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.dll" "C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\\ConsoleApplication1\bin\Debug\Computations.dll"
+         copy "C:\Users\Fuchsg\Documents\Visual Studio 2010\Projects\pnl-win32-1.6.0\lib\*.dll" "C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\\ConsoleApplication1\bin\Debug\*.dll" 
+         copy "C:\Users\Fuchsg\Documents\Visual Studio 2010\Projects\pnl-win32-1.6.0\lib\*.lib" "C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\\ConsoleApplication1\bin\Debug\*.lib"
+         :VCEnd
+                 1 file(s) copied.
+         C:\Users\Fuchsg\Documents\Visual Studio 2010\Projects\pnl-win32-1.6.0\lib\libblas.dll
+         C:\Users\Fuchsg\Documents\Visual Studio 2010\Projects\pnl-win32-1.6.0\lib\liblapack.dll
+         C:\Users\Fuchsg\Documents\Visual Studio 2010\Projects\pnl-win32-1.6.0\lib\libpnl.dll
+                 3 file(s) copied.
+         C:\Users\Fuchsg\Documents\Visual Studio 2010\Projects\pnl-win32-1.6.0\lib\libpnl.lib
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Suppression du fichier "Debug\Computations.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Debug\Computations.lastbuildstate".
+     1>Génération du projet "C:\Users\Fuchsg\Desktop\GitHub\Pilotage_Bancaire\PilotageBancaire\Computations\Computations.vcxproj" terminée (build cible(s)).
 
-Build succeeded.
+La génération a réussi.
 
-Time Elapsed 00:00:00.17
+Temps écoulé 00:00:00.66
