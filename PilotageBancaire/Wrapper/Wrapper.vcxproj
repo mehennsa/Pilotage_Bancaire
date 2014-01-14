@@ -57,7 +57,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>Computations.lib</AdditionalDependencies>
       <DelayLoadDLLs>Computations.dll</DelayLoadDLLs>
-      <AdditionalLibraryDirectories>C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug;C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

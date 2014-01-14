@@ -5,3 +5,10 @@ C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\WebApplic
 C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
 C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\WebApplication1\bin\WebApplication1.dll
+C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\WebApplication1\bin\WebApplication1.pdb
+C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\WebApplication1\bin\Wrapper.dll
+C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\WebApplication1\bin\Wrapper.pdb
