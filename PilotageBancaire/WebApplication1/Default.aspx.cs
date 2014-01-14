@@ -36,10 +36,11 @@ namespace WebApplication1
             WrapperClass wc = new WrapperClass();
             double S0 = 0.9;
             double rate = 0.04;
-            double sigma = 0.3;
+            double sigma = 0.1;
             double valeurLoan = 21500;
             double nbLitres = 200;
             double LSup = 500;
+            double addedMaturity = 2;
             int M = 10000;
 
             wc.getBounds(S0, sigma, rate, LSup, nbLitres, valeurLoan, M);
@@ -52,9 +53,10 @@ namespace WebApplication1
             for(int i=0; i<xvalues.Length; i++){
                 xvalues[i] = i+1;
             }
-            wc.getTaux(S0, sigma, rate, LSup, LInf, nbLitres, valeurLoan, T, M, coeff);
+            wc.getTaux(S0, sigma, rate, LSup, LInf, nbLitres, valeurLoan, T, M, coeff, addedMaturity);
 
-
+          //  double value = wc.getReturns() - valeurLoan;
+            double equityReturns = valeurLoan * 0.08 * 0.1 * T + valeurLoan * 0.08;
 
             Chart1.Series["Series1"].Points.DataBindXY(xvalues, coeff);
             Chart1.ChartAreas["ChartArea1"].AxisY.IsStartedFromZero = false;

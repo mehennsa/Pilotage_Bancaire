@@ -1,47 +1,56 @@
-﻿Build started 13/01/2014 23:41:39.
-     1>Project "C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Computations\Computations.vcxproj" on node 2 (rebuild target(s)).
+﻿La génération a démarré 14/01/2014 22:51:40.
+     1>Projet "C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Computations\Computations.vcxproj" sur le nœud 2 (rebuild cible(s)).
      1>_PrepareForClean:
-         Deleting file "Debug\Computations.lastbuildstate".
+         Suppression du fichier "Debug\Computations.lastbuildstate".
        InitializeBuildStatus:
-         Touching "Debug\Computations.unsuccessfulbuild".
+         Création de "Debug\Computations.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\include" /I"C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D COMPUTATIONS_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Computations.cpp
          Computations.cpp
-     1>c:\users\edouard\documents\github\pilotage_bancaire\pilotagebancaire\computations\computations.cpp(34): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned long', possible loss of data
-     1>c:\users\edouard\documents\github\pilotage_bancaire\pilotagebancaire\computations\computations.cpp(77): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned long', possible loss of data
+     1>c:\users\guillaume\documents\github\pilotage_bancaire\pilotagebancaire\computations\computations.cpp(34): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned long', perte possible de données
+     1>c:\users\guillaume\documents\github\pilotage_bancaire\pilotagebancaire\computations\computations.cpp(87): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned long', perte possible de données
        ManifestResourceCompile:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Computations.dll.embed.manifest.res" Debug\Computations_manifest.rc 
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib" /LIBPATH:"C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib" libpnl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Computations.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.lib" /MACHINE:X86 /DLL Debug\Computations.dll.embed.manifest.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib" /LIBPATH:"C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib" libpnl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Computations.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.lib" /MACHINE:X86 /DLL Debug\Computations.dll.embed.manifest.res
          Debug\Computations.obj
-            Creating library C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.lib and object C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.exp
+            Création de la bibliothèque C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.lib et de l'objet C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.exp
        Manifest:
-         Deleting file "Debug\Computations.dll.embed.manifest".
+         Suppression du fichier "Debug\Computations.dll.embed.manifest".
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Computations.dll.embed.manifest" /manifest Debug\Computations.dll.intermediate.manifest
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Computations.dll.embed.manifest.res" Debug\Computations_manifest.rc 
        LinkEmbedManifest:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib" /LIBPATH:"C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib" libpnl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Computations.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.lib" /MACHINE:X86 /DLL Debug\Computations.dll.embed.manifest.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib" /LIBPATH:"C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib" libpnl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Computations.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.lib" /MACHINE:X86 /DLL Debug\Computations.dll.embed.manifest.res
          Debug\Computations.obj
-            Creating library C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.lib and object C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.exp
-         Computations.vcxproj -> C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.dll
+            Création de la bibliothèque C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.lib et de l'objet C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.exp
+         Computations.vcxproj -> C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.dll
        PostBuildEvent:
-         copy "C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.dll" "C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\\ConsoleApplication1\bin\Debug\Computations.dll"
-         copy "C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\*.dll" "C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\\ConsoleApplication1\bin\Debug\*.dll" 
-         copy "C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\*.lib" "C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\\ConsoleApplication1\bin\Debug\*.lib"
-         
+         copy "C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.dll" "C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\\ConsoleApplication1\bin\Debug\Computations.dll"
+         copy "C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\*.dll" "C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\\ConsoleApplication1\bin\Debug\*.dll" 
+         copy "C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\*.lib" "C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\\ConsoleApplication1\bin\Debug\*.lib"
+         copy "C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Debug\Computations.dll" "C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\\WebApplication1\bin\Computations.dll"
+         copy "C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\*.dll" "C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\\WebApplication1\bin\*.dll" 
+         copy "C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\*.lib" "C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\\WebApplication1\bin\*.lib"
          :VCEnd
                  1 fichier(s) copié(s).
-         C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\libblas.dll
-         C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\liblapack.dll
-         C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\libpnl.dll
+         C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\libblas.dll
+         C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\liblapack.dll
+         C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\libpnl.dll
                  3 fichier(s) copié(s).
-         C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\libpnl.lib
+         C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\libpnl.lib
+                 1 fichier(s) copié(s).
+                 1 fichier(s) copié(s).
+         C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\libblas.dll
+         C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\liblapack.dll
+         C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\libpnl.dll
+                 3 fichier(s) copié(s).
+         C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Libs\pnl-win32-1.6.0\lib\libpnl.lib
                  1 fichier(s) copié(s).
        FinalizeBuildStatus:
-         Deleting file "Debug\Computations.unsuccessfulbuild".
-         Touching "Debug\Computations.lastbuildstate".
-     1>Done Building Project "C:\Users\edouard\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Computations\Computations.vcxproj" (rebuild target(s)).
+         Suppression du fichier "Debug\Computations.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Debug\Computations.lastbuildstate".
+     1>Génération du projet "C:\Users\guillaume\Documents\GitHub\Pilotage_Bancaire\PilotageBancaire\Computations\Computations.vcxproj" terminée (rebuild cible(s)).
 
-Build succeeded.
+La génération a réussi.
 
-Time Elapsed 00:00:03.95
+Temps écoulé 00:00:01.01

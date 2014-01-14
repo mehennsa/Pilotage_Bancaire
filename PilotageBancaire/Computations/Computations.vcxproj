@@ -62,7 +62,9 @@
       <Command>copy "$(SolutionDir)Debug\Computations.dll" "$(SolutionDir)\ConsoleApplication1\bin\Debug\Computations.dll"
 copy "$(SolutionDir)Libs\pnl-win32-1.6.0\lib\*.dll" "$(SolutionDir)\ConsoleApplication1\bin\Debug\*.dll" 
 copy "$(SolutionDir)Libs\pnl-win32-1.6.0\lib\*.lib" "$(SolutionDir)\ConsoleApplication1\bin\Debug\*.lib"
-</Command>
+copy "$(SolutionDir)Debug\Computations.dll" "$(SolutionDir)\WebApplication1\bin\Computations.dll"
+copy "$(SolutionDir)Libs\pnl-win32-1.6.0\lib\*.dll" "$(SolutionDir)\WebApplication1\bin\*.dll" 
+copy "$(SolutionDir)Libs\pnl-win32-1.6.0\lib\*.lib" "$(SolutionDir)\WebApplication1\bin\*.lib"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

@@ -27,7 +27,7 @@ namespace ConsoleApplication1
             Console.WriteLine("T : " + T);
             Console.WriteLine("LInf : " + LInf);
             double[] coeff = new double[(int)T*12];
-            wc.getTaux(S0, sigma, rate, LSup, LInf, nbLitres, valeurLoan, T, M, coeff);
+            //wc.getTaux(S0, sigma, rate, LSup, LInf, nbLitres, valeurLoan, T, M, coeff);
             double taux = wc.getRate();
             Console.WriteLine("Taux : " + taux);
             Console.ReadKey();
