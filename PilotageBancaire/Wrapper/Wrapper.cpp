@@ -19,7 +19,7 @@ namespace Wrapper {
 		double taux, returns;
 		double gain=0;
 		double tra;
-		double* refunds = new double[(int)T*12];
+		double* refunds = new double[(int)(T+addedMaturity)*12];
 		for (int k = 0; k<(int)T*12; k++){
 			refunds[k] = 0;
 		}

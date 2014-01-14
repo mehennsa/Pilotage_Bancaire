@@ -49,18 +49,20 @@ void Computations::estimateMaturity(double S0, double sigma, double rate, double
 void computeRefund(double S0, double sigma, double rate, double LSup, double LInf, double nbLitres, PnlRng *rng, double T, double &refund, double *refunds, double addedMaturity, double &gain) {
 		double drift  = (rate-(double)(sigma*sigma)/2)*(1.0/12.0);
 		double s = S0;
-		//MAXI PB D4ARRONDIIIIII
 		double tmp;
 		for (double i=0; i <(T+addedMaturity)*12; ++i) {
 			s = s*exp(drift+sigma*SQR(1/12)*pnl_rng_normal(rng));
 			tmp = pnl_rng_normal(rng);
-			if (i>=(T+addedMaturity)*12){
+			if (i>=T*12){
 				if ( s * nbLitres <= LSup && s * nbLitres >= LInf) {
 					gain += s*nbLitres;
+					refunds[(int)i] += s*nbLitres;
 				} else if (s * nbLitres > LSup) {
 					gain += LSup;
+					refunds[(int)i] += LSup;
 				} else {
 					gain += LInf;
+					refunds[(int)i] += LInf;
 				}
 			}else{
 				if ( s * nbLitres <= LSup && s * nbLitres >= LInf) {
@@ -112,7 +114,7 @@ void Computations::estimateRate(double S0, double sigma, double rate, double LSu
 	estimateRefund(S0,sigma,rate,LSup, LInf, nbLitres,T,M,EspRefund,refunds,addedMaturity,gain, returns);
 	while(abs(returnTRA-valeurLoan)>10){
 		returnTRA = 0;
-		for (int k=0; k<(int)(T+addedMaturity)*12; k++){
+		for (int k=0; k<(int)(T)*12; k++){
 			returnTRA += refunds[k]/pow((1+tra*(1.0/12.0)),k);
 		}
 		if (returnTRA-valeurLoan>0){

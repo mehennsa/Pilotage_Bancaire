@@ -30,6 +30,10 @@
             Prix du fuel
             <asp:TextBox ID="Pfuel" runat="server" Width="50" />
         </p>
+        <p class="parameters">
+            Maturité supplémentaire
+            <asp:TextBox ID="MaturityAdded" runat="server" Width="50" />
+        </p>
     </div>
         <asp:Chart ID="Chart1" runat="server" Height="165px"
         Width="474px">

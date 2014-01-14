@@ -18,7 +18,7 @@ namespace Wrapper {
 
 
 	public :
-		WrapperClass() {EspT = LInf = Rate= Gain = Tra = 0;};
+		WrapperClass() {EspT = LInf = Rate= Gain = Tra = Returns= 0;};
 		void getBounds(double S0, double sigma, double rate, 
 		double LSup, double nbLitres, double valeurLoan, int M);
 		void getTaux(double S0, double sigma, double rate, double LSup, double LInf, double nbLitres, double valeurLoan, double T, int M, array<double> ^refund, double addedMaturity);
