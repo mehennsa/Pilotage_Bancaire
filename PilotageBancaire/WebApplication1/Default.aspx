@@ -63,6 +63,13 @@
             <div style="text-align:right;width:50%;font-size:1.4em;margin-top:10px;float:left;">Remboursement minimum:&nbsp 
             </div>        
             <div id="ratio_label" style="text-align:left;float:left;width:50%;font-size:1.4em;font-weight:bold;margin-top:10px;">0</div>
+            <div style="text-align:right;width:50%;font-size:1.4em;margin-top:10px;float:left;">TRA:&nbsp</div>
+            <div style="text-align:left;float:left;width:50%;font-size:1.4em;font-weight:bold;margin-top:10px;"><asp:Label ID="TRA_Label" runat="server" Text="0"></asp:Label></div>
+            <div style="text-align:right;width:50%;font-size:1.4em;margin-top:10px;float:left;">Rendement:&nbsp</div>
+            <div style="text-align:left;float:left;width:50%;font-size:1.4em;font-weight:bold;margin-top:10px;"><asp:Label ID="Rendement_Label" runat="server" Text="0"></asp:Label></div>
+            <div style="text-align:right;width:50%;font-size:1.4em;margin-top:10px;float:left;">Gain:&nbsp</div>
+            <div style="text-align:left;float:left;width:50%;font-size:1.4em;font-weight:bold;margin-top:10px;"><asp:Label ID="Gain_Label" runat="server" Text="0"></asp:Label></div>
+       
     </div>
 
     <script type="text/javascript">
@@ -79,10 +86,10 @@
                     if (i < nbr) {
                         myLoop_tracking(nbr);
                     } else {
-                        document.getElementById("tracking_error").style.color = "#00FF00";
+                       // document.getElementById("tracking_error").style.color = "#00FF00";
                     }
                 }, 50)
-        }
+            }
 
         function myLoop_ratio(nbr) {
             setTimeout(function () {
@@ -97,7 +104,7 @@
                 if (i < nbr) {
                     myLoop_ratio(nbr);
                 } else {
-                    document.getElementById("ratio_label").style.color = "#00FF00";
+                   // document.getElementById("ratio_label").style.color = "#00FF00";
                 }
             }, 5)
         }
