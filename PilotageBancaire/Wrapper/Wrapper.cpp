@@ -19,12 +19,12 @@ namespace Wrapper {
 		double taux, returns;
 		double gain=0;
 		double tra;
-		double* refunds = new double[(int)(T+addedMaturity)*12];
-		for (int k = 0; k<(int)T*12; k++){
+		double* refunds = new double[(int)(T+addedMaturity)*12+1];
+		for (int k = 0; k<(int)(T+addedMaturity)*12; k++){
 			refunds[k] = 0;
 		}
 		estimateRate(S0, sigma, rate, LSup, LInf, nbLitres, valeurLoan, T, M,taux, refunds, addedMaturity, gain, returns, tra);
-		for (int i = 0; i < (int)T*12; i++)
+		for (int i = 0; i < (int)(T+addedMaturity)*12; i++)
 			refund[i] = (double)refunds[i];
 		this->Rate = taux;
 		this->Gain = gain;

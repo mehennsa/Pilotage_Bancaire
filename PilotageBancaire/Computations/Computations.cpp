@@ -37,7 +37,6 @@ void Computations::estimateMaturity(double S0, double sigma, double rate, double
 			sum += t;
 			var += t * t;
 		}
-
 		 EspT = sum / M;
 		 var = var / M - EspT * EspT;
 		 double ic = 2.58 * sqrt (var / M); 
@@ -94,7 +93,7 @@ void estimateRefund(double S0, double sigma, double rate, double LSup, double LI
 			computeRefund(S0, sigma, rate, LSup, LInf, nbLitres, rng, T, refund, refunds, addedMaturity, gain);
 			EspRefund += refund;
 		}
-		for (int k=0; k<(int)T*12; k++){
+		for (int k=0; k<(int)(T+addedMaturity)*12; k++){
 			refunds[k]/=M;
 			returns += refunds[k]/pow((1+rate*(1.0/12.0)),k);
 		}
@@ -114,7 +113,7 @@ void Computations::estimateRate(double S0, double sigma, double rate, double LSu
 	estimateRefund(S0,sigma,rate,LSup, LInf, nbLitres,T,M,EspRefund,refunds,addedMaturity,gain, returns);
 	while(abs(returnTRA-valeurLoan)>10){
 		returnTRA = 0;
-		for (int k=0; k<(int)(T)*12; k++){
+		for (int k=0; k<(int)(T+addedMaturity)*12; k++){
 			returnTRA += refunds[k]/pow((1+tra*(1.0/12.0)),k);
 		}
 		if (returnTRA-valeurLoan>0){

@@ -20,15 +20,15 @@ namespace WebApplication1
         {
             // Récupérer les valeurs des paramètres dans les différentes TextBox
             //WrapperClass wc = new WrapperClass();
-            double valeurLoan = double.Parse(Ve.Text);
-            double LSup = double.Parse(Rmax.Text);
-            double S0 = double.Parse(Pfuel.Text);
-            S0 = 0.9;
-            double rate = 0.02;
-            double sigma = 0.24;
-            double nbLitres = double.Parse(Véco.Text);
-            double addedMaturity = double.Parse(MaturityAdded.Text);
-            int M = 10000;
+            //double valeurLoan = double.Parse(Ve.Text);
+            //double LSup = double.Parse(Rmax.Text);
+            //double S0 = double.Parse(Pfuel.Text);
+            //S0 = 0.9;
+            //double rate = 0.02;
+            //double sigma = 0.24;
+            //double nbLitres = double.Parse(Véco.Text);
+            //double addedMaturity = double.Parse(MaturityAdded.Text);
+            //int M = 10000;
             //wc.getBounds(S0,sigma,rate,RembMax,nbLitres,ValEmp,M);
             //maturity.Text = wc.getEspT().ToString();
             //minrate.Text = wc.getLInf().ToString();
@@ -36,21 +36,21 @@ namespace WebApplication1
 
 
             WrapperClass wc = new WrapperClass();
-            //double S0 = 0.9;
-            //double rate = 0.04;
-            //double sigma = 0.1;
-            //double valeurLoan = 21500;
-            //double nbLitres = 200;
-            //double LSup = 500;
-            //double addedMaturity = 2;
-            //int M = 10000;
+            double S0 = 0.9;
+            double rate = 0.04;
+            double sigma = 0.1;
+            double valeurLoan = 21500;
+            double nbLitres = 200;
+            double LSup = 500;
+            double addedMaturity = 1;
+            int M = 10000;
 
             wc.getBounds(S0, sigma, rate, LSup, nbLitres, valeurLoan, M);
             double T = wc.getEspT();
             double LInf = wc.getLInf();
             //maturity.Text = T.ToString();
             //minrate.Text = LInf.ToString();
-            double[] coeff = new double[(int)T * 12];
+            double[] coeff = new double[(int)(T+addedMaturity) * 12];
             double[] xvalues = new double[(int)T * 12];
             for(int i=0; i<xvalues.Length; i++){
                 xvalues[i] = i+1;
