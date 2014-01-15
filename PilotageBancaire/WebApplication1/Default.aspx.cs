@@ -19,15 +19,15 @@ namespace WebApplication1
         public void start(object sender, EventArgs e)
         {
             // Récupérer les valeurs des paramètres dans les différentes TextBox
-            //WrapperClass wc = new WrapperClass();
-            //double valeurLoan = double.Parse(Ve.Text);
-            //double LSup = double.Parse(Rmax.Text);
-            //double S0 = double.Parse(Pfuel.Text);
+            WrapperClass wc = new WrapperClass();
+            double valeurLoan = double.Parse(Ve.Text);
+            double LSup = double.Parse(Rmax.Text);
+            double S0 = double.Parse(Pfuel.Text);
             //S0 = 0.9;
             //double rate = 0.02;
             //double sigma = 0.24;
-            //double nbLitres = double.Parse(Véco.Text);
-            //double addedMaturity = double.Parse(MaturityAdded.Text);
+            double nbLitres = double.Parse(Véco.Text);
+            double addedMaturity = double.Parse(MaturityAdded.Text);
             //int M = 10000;
             //wc.getBounds(S0,sigma,rate,RembMax,nbLitres,ValEmp,M);
             //maturity.Text = wc.getEspT().ToString();
@@ -35,14 +35,14 @@ namespace WebApplication1
 
 
 
-            WrapperClass wc = new WrapperClass();
-            double S0 = 0.9;
+            //WrapperClass wc = new WrapperClass();
+            //double S0 = 0.9;
             double rate = 0.04;
             double sigma = 0.1;
-            double valeurLoan = 21500;
-            double nbLitres = 200;
-            double LSup = 500;
-            double addedMaturity = 1;
+            //double valeurLoan = 21500;
+            //double nbLitres = 200;
+            //double LSup = 500;
+            //double addedMaturity = 3;
             int M = 10000;
 
             wc.getBounds(S0, sigma, rate, LSup, nbLitres, valeurLoan, M);
@@ -51,7 +51,7 @@ namespace WebApplication1
             //maturity.Text = T.ToString();
             //minrate.Text = LInf.ToString();
             double[] coeff = new double[(int)(T+addedMaturity) * 12];
-            double[] xvalues = new double[(int)T * 12];
+            double[] xvalues = new double[(int)(T+addedMaturity) * 12];
             for(int i=0; i<xvalues.Length; i++){
                 xvalues[i] = i+1;
             }
@@ -62,6 +62,11 @@ namespace WebApplication1
 
             Chart1.Series["Series1"].Points.DataBindXY(xvalues, coeff);
             Chart1.ChartAreas["ChartArea1"].AxisY.IsStartedFromZero = false;
+
+            
+            TRA_Label.Text = (Math.Round(wc.getTra(),4) * 100).ToString() + " %";
+            Rendement_Label.Text = (Math.Round(wc.getRate(), 4) * 100).ToString() + " %";
+            Gain_Label.Text = Math.Round(wc.getGain(), 2).ToString();
 
             string nbr = Math.Round(T, 2).ToString();
             string nbr2 = Math.Round(LInf, 2).ToString();
