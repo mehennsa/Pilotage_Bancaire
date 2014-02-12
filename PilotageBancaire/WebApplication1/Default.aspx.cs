@@ -50,8 +50,8 @@ namespace WebApplication1
             double LInf = wc.getLInf();
             //maturity.Text = T.ToString();
             //minrate.Text = LInf.ToString();
-            double[] coeff = new double[(int)(T+addedMaturity) * 12];
-            double[] xvalues = new double[(int)(T+addedMaturity) * 12];
+            double[] coeff = new double[(int)((T+addedMaturity) * 12)];
+            double[] xvalues = new double[(int)((T+addedMaturity) * 12)];
             for(int i=0; i<xvalues.Length; i++){
                 xvalues[i] = i+1;
             }
